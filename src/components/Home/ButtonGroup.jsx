@@ -2,7 +2,7 @@ import { useContext, useEffect,useState } from "react"
 /* eslint-disable react-hooks/exhaustive-deps */
 
 
-function Counter(props) {
+function ButtonGroup(props) {
 
     const {number} = props
  
@@ -16,4 +16,4 @@ function Counter(props) {
              
        </>
 }
-export default Counter
+export default ButtonGroup

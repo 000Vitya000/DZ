@@ -1,16 +1,15 @@
 import { useContext, useEffect,useState } from "react"
-import Counter from "../components/Home/Counter";
+import ButtonGroup from "../components/Home/ButtonGroup";
 /* eslint-disable react-hooks/exhaustive-deps */
 
 
 function Home() {
 
-       const [showModalGameSetting, setShowModalGameSetting] = useState(false);
-       
-       
+       const number = ['one','two','three']
+ 
 
     return <>        
-              <Counter />
+              <ButtonGroup number={number}/>
        </>
 }
 export default Home
